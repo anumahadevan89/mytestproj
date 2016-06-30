@@ -171,14 +171,82 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "%sql show tables",
+      "dateUpdated": "Jun 30, 2016 12:55:30 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1467289754370_768461939",
       "id": "20160630-122914_2042421502",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "tableName\tisTemporary\n1_parition_table\tfalse\n2_parition_table\tfalse\n3_parition_table\tfalse\n4_parition_table\tfalse\n5_parition_table\tfalse\navrotest\tfalse\ncsvtsvtable\tfalse\ndefault_qubole_airline_origin_destination\tfalse\ndefault_qubole_memetracker\tfalse\nhivedep\tfalse\nhivehtmltable\tfalse\njob_test_table\tfalse\nnewhiveschemaform1514_201510160821\tfalse\nnewhiveschemaform1531_201511082207\tfalse\nnewhiveschemaform1533_201511222211\tfalse\nnewhiveschemaform1544_201511240719\tfalse\nnewhiveschemaform1547_201512020729\tfalse\nnewhiveschemaform1560_201512211817\tfalse\nnewhiveschemaform1567_201601031808\tfalse\nnewhiveschemaform1581_201601241723\tfalse\nnewhiveschemaraw1581_201601241723\tfalse\nnewtable\tfalse\ntable_with_comments\tfalse\ntest_table_hive\tfalse\nworkflow_test1\tfalse\nworkflow_test2\tfalse\n"
+      },
       "dateCreated": "Jun 30, 2016 12:29:14 PM",
+      "dateStarted": "Jun 30, 2016 12:55:30 PM",
+      "dateFinished": "Jun 30, 2016 12:55:30 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql show tables",
+      "dateUpdated": "Jun 30, 2016 12:55:42 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467291330010_-188925785",
+      "id": "20160630-125530_1533199593",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "tableName\tisTemporary\n1_parition_table\tfalse\n2_parition_table\tfalse\n3_parition_table\tfalse\n4_parition_table\tfalse\n5_parition_table\tfalse\navrotest\tfalse\ncsvtsvtable\tfalse\ndefault_qubole_airline_origin_destination\tfalse\ndefault_qubole_memetracker\tfalse\nhivedep\tfalse\nhivehtmltable\tfalse\njob_test_table\tfalse\nnewhiveschemaform1514_201510160821\tfalse\nnewhiveschemaform1531_201511082207\tfalse\nnewhiveschemaform1533_201511222211\tfalse\nnewhiveschemaform1544_201511240719\tfalse\nnewhiveschemaform1547_201512020729\tfalse\nnewhiveschemaform1560_201512211817\tfalse\nnewhiveschemaform1567_201601031808\tfalse\nnewhiveschemaform1581_201601241723\tfalse\nnewhiveschemaraw1581_201601241723\tfalse\nnewtable\tfalse\ntable_with_comments\tfalse\ntest_table_hive\tfalse\nworkflow_test1\tfalse\nworkflow_test2\tfalse\n"
+      },
+      "dateCreated": "Jun 30, 2016 12:55:30 PM",
+      "dateStarted": "Jun 30, 2016 12:55:42 PM",
+      "dateFinished": "Jun 30, 2016 12:55:42 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467291342189_1349901250",
+      "id": "20160630-125542_493772305",
+      "dateCreated": "Jun 30, 2016 12:55:42 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
