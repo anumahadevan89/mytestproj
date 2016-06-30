@@ -1,0 +1,128 @@
+{
+  "paragraphs": [
+    {
+      "text": "%sql select origin, quarter, count(*)/1000000 count from default_qubole_airline_origin_destination where quarter is not NULL group by origin, quarter order by count desc limit 100",
+      "dateUpdated": "Jun 30, 2016 12:01:34 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467288021900_634919610",
+      "id": "20160630-120021_941292946",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "origin\tquarter\tcount\n\"ATL\"\t4\t0.585943\n\"ATL\"\t2\t0.572598\n\"ATL\"\t3\t0.572256\n\"ATL\"\t1\t0.500581\n\"ORD\"\t2\t0.491543\n\"ORD\"\t3\t0.466277\n\"ORD\"\t4\t0.447966\n\"ORD\"\t1\t0.414078\n\"DFW\"\t4\t0.395589\n\"DFW\"\t2\t0.394314\n\"DFW\"\t3\t0.385744\n\"DEN\"\t3\t0.352433\n\"DEN\"\t2\t0.350541\n\"DEN\"\t4\t0.338047\n\"DFW\"\t1\t0.334973\n\"CLT\"\t4\t0.32012\n\"CLT\"\t2\t0.309697\n\"CLT\"\t3\t0.308442\n\"DEN\"\t1\t0.304126\n\"CLT\"\t1\t0.278568\n\"PHX\"\t4\t0.267915\n\"PHX\"\t3\t0.26791\n\"LAX\"\t2\t0.257623\n\"PHX\"\t1\t0.254131\n\"PHX\"\t2\t0.251099\n\"LAX\"\t3\t0.245908\n\"LAX\"\t4\t0.242943\n\"MSP\"\t2\t0.242774\n\"MSP\"\t4\t0.240772\n\"MSP\"\t3\t0.238894\n\"IAH\"\t4\t0.230179\n\"IAH\"\t1\t0.226183\n\"IAH\"\t2\t0.224701\n\"DTW\"\t2\t0.224464\n\"DTW\"\t4\t0.218456\n\"LAX\"\t1\t0.216789\n\"IAH\"\t3\t0.215317\n\"LAS\"\t3\t0.2128\n\"DTW\"\t3\t0.211875\n\"MSP\"\t1\t0.210818\n\"LAS\"\t4\t0.208455\n\"PHL\"\t2\t0.20522\n\"PHL\"\t4\t0.205053\n\"LAS\"\t2\t0.203396\n\"PHL\"\t3\t0.203169\n\"LAS\"\t1\t0.198329\n\"DTW\"\t1\t0.196459\n\"SEA\"\t3\t0.196199\n\"SEA\"\t2\t0.182331\n\"PHL\"\t1\t0.177207\n\"SLC\"\t3\t0.174109\n\"SEA\"\t4\t0.172549\n\"SFO\"\t3\t0.168273\n\"SFO\"\t2\t0.166709\n\"SLC\"\t2\t0.163611\n\"SFO\"\t4\t0.162051\n\"SLC\"\t4\t0.155542\n\"MCO\"\t2\t0.152253\n\"CVG\"\t2\t0.149251\n\"MCO\"\t1\t0.147277\n\"CVG\"\t3\t0.146615\n\"SLC\"\t1\t0.144876\n\"MCO\"\t4\t0.144103\n\"CVG\"\t4\t0.141082\n\"SEA\"\t1\t0.136729\n\"SFO\"\t1\t0.134752\n\"CVG\"\t1\t0.130466\n\"BOS\"\t2\t0.12743\n\"LGA\"\t2\t0.12742\n\"DCA\"\t2\t0.125981\n\"IAD\"\t2\t0.125825\n\"MCO\"\t3\t0.125714\n\"BOS\"\t3\t0.123382\n\"LGA\"\t3\t0.122713\n\"DCA\"\t3\t0.121217\n\"LGA\"\t4\t0.118307\n\"DCA\"\t4\t0.117944\n\"BOS\"\t4\t0.11726\n\"IAD\"\t1\t0.115924\n\"IAD\"\t4\t0.114798\n\"IAD\"\t3\t0.113989\n\"EWR\"\t2\t0.110173\n\"BWI\"\t3\t0.107754\n\"BWI\"\t2\t0.105037\n\"BWI\"\t4\t0.104957\n\"EWR\"\t4\t0.104524\n\"EWR\"\t3\t0.104487\n\"DCA\"\t1\t0.10411\n\"EWR\"\t1\t0.102976\n\"PDX\"\t3\t0.101936\n\"LGA\"\t1\t0.099723\n\"JFK\"\t2\t0.099313\n\"JFK\"\t3\t0.097973\n\"FLL\"\t1\t0.097782\n\"SAN\"\t3\t0.097503\n\"BOS\"\t1\t0.09622\n\"MEM\"\t4\t0.096146\n\"JFK\"\t4\t0.096138\n\"MEM\"\t2\t0.09607\n\"SAN\"\t2\t0.095953\n"
+      },
+      "dateCreated": "Jun 30, 2016 12:00:21 PM",
+      "dateStarted": "Jun 30, 2016 12:01:35 PM",
+      "dateFinished": "Jun 30, 2016 12:03:36 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "show tables",
+      "dateUpdated": "Jun 30, 2016 12:02:53 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467288095004_1377023617",
+      "id": "20160630-120135_2123441191",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "\u003cconsole\u003e:22: error: not found: value show\n              show tables\n              ^\n"
+      },
+      "dateCreated": "Jun 30, 2016 12:01:35 PM",
+      "dateStarted": "Jun 30, 2016 12:02:53 PM",
+      "dateFinished": "Jun 30, 2016 12:03:37 PM",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql show tables",
+      "dateUpdated": "Jun 30, 2016 12:04:04 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467288117082_330906682",
+      "id": "20160630-120157_847684504",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "tableName\tisTemporary\ndefault_qubole_airline_origin_destination\tfalse\ndefault_qubole_memetracker\tfalse\n"
+      },
+      "dateCreated": "Jun 30, 2016 12:01:57 PM",
+      "dateStarted": "Jun 30, 2016 12:04:04 PM",
+      "dateFinished": "Jun 30, 2016 12:04:05 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467288244160_1552848408",
+      "id": "20160630-120404_2088002055",
+      "dateCreated": "Jun 30, 2016 12:04:04 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "notebooktest",
+  "id": "U6CSTP1WCQ1467287492",
+  "angularObjects": {
+    "2BQE7J7EF111001467287986682": [],
+    "2BRBPVSYT111001467287986680": [],
+    "2BNTHW2MB111001467287986635": []
+  },
+  "config": {},
+  "info": {},
+  "source": "FCN"
+}
