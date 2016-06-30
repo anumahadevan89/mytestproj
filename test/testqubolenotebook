@@ -103,24 +103,92 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "%sql show tables",
+      "dateUpdated": "Jun 30, 2016 12:29:01 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1467288244160_1552848408",
       "id": "20160630-120404_2088002055",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "tableName\tisTemporary\n1_parition_table\tfalse\n2_parition_table\tfalse\n3_parition_table\tfalse\n4_parition_table\tfalse\n5_parition_table\tfalse\navrotest\tfalse\ncsvtsvtable\tfalse\ndefault_qubole_airline_origin_destination\tfalse\ndefault_qubole_memetracker\tfalse\nhivedep\tfalse\nhivehtmltable\tfalse\njob_test_table\tfalse\nnewhiveschemaform1514_201510160821\tfalse\nnewhiveschemaform1531_201511082207\tfalse\nnewhiveschemaform1533_201511222211\tfalse\nnewhiveschemaform1544_201511240719\tfalse\nnewhiveschemaform1547_201512020729\tfalse\nnewhiveschemaform1560_201512211817\tfalse\nnewhiveschemaform1567_201601031808\tfalse\nnewhiveschemaform1581_201601241723\tfalse\nnewhiveschemaraw1581_201601241723\tfalse\nnewtable\tfalse\ntable_with_comments\tfalse\ntest_table_hive\tfalse\nworkflow_test1\tfalse\nworkflow_test2\tfalse\n"
+      },
       "dateCreated": "Jun 30, 2016 12:04:04 PM",
+      "dateStarted": "Jun 30, 2016 12:29:04 PM",
+      "dateFinished": "Jun 30, 2016 12:29:46 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql show tables",
+      "dateUpdated": "Jun 30, 2016 12:29:14 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467289741436_-1888244540",
+      "id": "20160630-122901_950988948",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "tableName\tisTemporary\n1_parition_table\tfalse\n2_parition_table\tfalse\n3_parition_table\tfalse\n4_parition_table\tfalse\n5_parition_table\tfalse\navrotest\tfalse\ncsvtsvtable\tfalse\ndefault_qubole_airline_origin_destination\tfalse\ndefault_qubole_memetracker\tfalse\nhivedep\tfalse\nhivehtmltable\tfalse\njob_test_table\tfalse\nnewhiveschemaform1514_201510160821\tfalse\nnewhiveschemaform1531_201511082207\tfalse\nnewhiveschemaform1533_201511222211\tfalse\nnewhiveschemaform1544_201511240719\tfalse\nnewhiveschemaform1547_201512020729\tfalse\nnewhiveschemaform1560_201512211817\tfalse\nnewhiveschemaform1567_201601031808\tfalse\nnewhiveschemaform1581_201601241723\tfalse\nnewhiveschemaraw1581_201601241723\tfalse\nnewtable\tfalse\ntable_with_comments\tfalse\ntest_table_hive\tfalse\nworkflow_test1\tfalse\nworkflow_test2\tfalse\n"
+      },
+      "dateCreated": "Jun 30, 2016 12:29:01 PM",
+      "dateStarted": "Jun 30, 2016 12:29:42 PM",
+      "dateFinished": "Jun 30, 2016 12:29:49 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467289754370_768461939",
+      "id": "20160630-122914_2042421502",
+      "dateCreated": "Jun 30, 2016 12:29:14 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
   ],
   "name": "notebooktest",
-  "id": "U6CSTP1WCQ1467287492",
+  "id": "749JBFFFQ31467289597",
   "angularObjects": {
-    "2BQE7J7EF111001467287986682": [],
-    "2BRBPVSYT111001467287986680": [],
-    "2BNTHW2MB111001467287986635": []
+    "2BQEFMBC246471467271209219": [],
+    "2BR49166246471467271209294": [],
+    "2BQ6EAFTQ46471467271209285": []
   },
   "config": {},
   "info": {},
