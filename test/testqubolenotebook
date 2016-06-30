@@ -35,40 +35,6 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "show tables",
-      "dateUpdated": "Jun 30, 2016 12:02:53 PM",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/scala"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1467288095004_1377023617",
-      "id": "20160630-120135_2123441191",
-      "result": {
-        "code": "ERROR",
-        "type": "TEXT",
-        "msg": "\u003cconsole\u003e:22: error: not found: value show\n              show tables\n              ^\n"
-      },
-      "dateCreated": "Jun 30, 2016 12:01:35 PM",
-      "dateStarted": "Jun 30, 2016 12:02:53 PM",
-      "dateFinished": "Jun 30, 2016 12:03:37 PM",
-      "status": "ERROR",
-      "progressUpdateIntervalMs": 500
-    },
-    {
       "text": "%sql show tables",
       "dateUpdated": "Jun 30, 2016 12:04:04 PM",
       "config": {
